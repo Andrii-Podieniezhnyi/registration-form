@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    background-color: rgba(62, 113, 142, 1);
+    font-family: 'Space Grotesk' , sans-serif ;
+}
+
+.card{
+    margin: 0 auto;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.left__card{
+    width: 100%;
+    height: 615px;
+    background-image: url(../img/wavy_line.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.right__card{
+    background: linear-gradient(160.42deg, #517879 0%, #214159 100%);
+    height: 607px;
+    width: 40%;
+    box-shadow: 0px 0px 10px 9px #4E7577;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    background: linear-gradient(93.38deg, #496F74 -3.47%, #6E9195 35.61%, #2D4F61 84.29%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.card__info{
+    width: 58%;
+}
+
+.card__title{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+input{
+    font-size: 12px;
+    color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 2px 2px 2px rgb(204 204 204 / 10%);
+    border-radius: 4px;
+    width: 353px;
+    line-height: 16px;
+    display: flex;
+}
+
+::placeholder{
+    color: #CCCCCC;
+}
+
+.psw{
+    letter-spacing: 4px;
+}
+
+.password__details{
+    font-size: 10px;
+    line-height: 16px;
+    color: #A8A8A8;
+}
+
+label > span{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.button{
+    background-color: #27485D;
+    border: 1px solid #284A5E;
+    box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+    border-radius: 4px;
+    width: 359px;
+    height: 34px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.log{
+    color: #C4C4C4;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.log a {
+    color: rgba(71, 109, 115, 1);
+}
+
+nav > ul{
+    list-style: none;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.quote{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 2px 2px 0px #4c6c77;
+}
+
+.quote > span{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.author{
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+}
+
+.quote__box{
+    margin-top: 160px;
+    margin-left: 35px;
+}
+
